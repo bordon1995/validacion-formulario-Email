@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>validacion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form>
+    <fieldset>
+
+      <header>Enviar Nuevo Mail</header>
+
+      <div id="usuario" class="fieldset">
+        <label class=" block">Para:</label>
+        <input id="email" class="input" type="email" placeholder="Email" name="usuario">
+      </div>
+      <div class="fieldset">
+        <label class=" block">Asunto</label>
+        <input id="asunto" class="input" type="text" placeholder="Motivo" name="asunto">
+      </div>
+      <div class="fieldset">
+        <label class=" block">Mensaje</label>
+        <textarea id="mensaje" class="input texto" name="mensaje"></textarea>
+      </div>
+      <div id="mostrarerror" class="fieldset space">
+        <input id="enviar" class="boton" type="submit" value="Enviar Mail">
+        <input class="boton" type="submit" value="Resetear Formulario">
+      </div>
+
+    </fieldset>
+  </form>
+
+  <script src="app.js"></script>
+</body>
+</html>
